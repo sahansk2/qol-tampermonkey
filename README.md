@@ -33,6 +33,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ## Slightly Better ECE391 Queue
 
+![Preview of Slightly Better ECE391 Queue](preview-slightlybetterece391queue.PNG)
 ### Description
 
 A (currently) hacky TamperMonkey script to improve the ECE391 website queue experience.
