@@ -3,6 +3,14 @@ Quality-of-life Tampermonkey scripts that I hack together.
 
 **NOTE!!!**: You *must* install [Tampermonkey](https://www.tampermonkey.net/) in your browser first.
 
+## Bug Reports
+
+Either email me at sahansk2+fixme@illinois.edu (please respect the plus addressing), make an issue on GitHub, or contact me on Discord.
+
+## License
+
+GPLv2. In a nutshell, you can fork/download/do what you want with the stuff I make here, but if you give the improved tampermonkey script to anybody you _must_ share the original source code (no minified garbage!)
+
 <hr/>
 
 ## Slightly Better ECE391 Queue
@@ -22,3 +30,4 @@ In fact, the course staff might update the site and break this script unintentio
 ### Installation
 
 [Click Me](https://raw.githubusercontent.com/sahansk2/qol-tampermonkey/main/slightlybetterece391queue.js)
+
