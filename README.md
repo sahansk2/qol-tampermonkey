@@ -9,7 +9,7 @@ Either email me at sahansk2+fixme@illinois.edu (please respect the plus addressi
 
 ## License
 
-GPLv2. In a nutshell, you can fork/download/do what you want with the stuff I make here, but if you give the improved Tampermonkey script to anybody you _must_ share the improved Tampermonkey script source code (no minified garbage!) and preserve license notices. If you improve it and keep the improvements to yourself only, then you're not obliged to give the source code to anybody except yourself.
+GPLv2. In a nutshell, you can fork/download/do what you want with the stuff I make here, but if you give the improved Tampermonkey script to anybody you _must_ share the improved Tampermonkey script source code with them too (no minified garbage!) and preserve license notices. If you improve it and keep the improvements to yourself only, then you're not obliged to give the source code to anybody except yourself.
 
 ```
 Copyright (C) 2021 Sahan Kumarasinghe
