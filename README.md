@@ -1,11 +1,11 @@
 # qol-tampermonkey
-Quality-of-life Tampermonkey scripts that I hack together.
+Quality-of-life Tampermonkey scripts that I hack together. PRs welcome! 
 
 **NOTE!!!**: You *must* install [Tampermonkey](https://www.tampermonkey.net/) in your browser first.
 
 ## Bug Reports
 
-Either email me at sahansk2+fixme@illinois.edu (please respect the plus addressing), make an issue on GitHub, or contact me on Discord.
+Either email me at sahansk2+fixme@illinois.edu (please respect the plus addressing), make an issue on GitHub, or contact me on Discord. Due to certain classes (*ahem*), progress here might be slow.
 
 ## License
 
@@ -35,15 +35,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ### Description
 
-A REALLY hacky TamperMonkey script that I might not ever maintain. Ever. 
-In fact, the course staff might update the site and break this script unintentionally (or intentionally), but that's totally OK -- you use this at your own risk.
+A (currently) hacky TamperMonkey script to improve the ECE391 website queue experience.
+Note, the course staff might update the site and break this script unintentionally (or intentionally), but that's totally OK.
+File an issue or bug report if there's some kind of a problem and we can work through it together.
 
 ### Features
 
-* Adds queue numbers to entries in the question queue
-* Automatically updates numbers upon queue modifications
-* Automatically scroll to your position if you are in the queue, and automatically scroll as your queue position changes **(non-Safari ONLY!!!)**
-* Queue number highlighting based off of position (red if queue position < # TAs online, yellow if queue position < 2 * # TAs online, grey if otherwise)
+* Adds queue numbers to entries in the question queue.
+* Automatically updates numbers upon queue modifications.
+* Automatically scroll to your position if you are in the queue, and automatically scroll as your queue position changes **(non-Safari ONLY!!!)**.
+* Queue number highlighting based off of position (red if queue position < # TAs online, yellow if queue position < 2 * # TAs online, grey if otherwise).
 
 ### Installation
 
