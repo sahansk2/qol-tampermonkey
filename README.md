@@ -49,5 +49,5 @@ File an issue or bug report if there's some kind of a problem and we can work th
 
 ### Installation
 
-[Click Me](https://raw.githubusercontent.com/sahansk2/qol-tampermonkey/main/slightlybetterece391queue.js)
+[Click Me](https://github.com/sahansk2/qol-tampermonkey/raw/main/slightlybetterece391queue.tamper.js)
 
