@@ -82,10 +82,10 @@ const updateCycle = () => {
 }
 
 const observer = new MutationObserver(updateCycle)
-
-observer.observe(document.querySelector('.question-group'), {childList: true})
-
-injectQueueCounter()
-
-updateCycle()
+let questions = document.querySelector('.question-group')
+if (questions) {
+    observer.observe(questions, {childList: true})
+    injectQueueCounter()
+    updateCycle()
+}
 })();
