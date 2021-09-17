@@ -1,9 +1,28 @@
-# qol-tampermonkey
-Quality-of-life Tampermonkey scripts that I hack together. PRs welcome! 
+## Slightly Better ECE391 Queue
 
-**NOTE!!!**: You *must* install [Tampermonkey](https://www.tampermonkey.net/) in your browser first.
+![Preview of Slightly Better ECE391 Queue](preview-slightlybetterece391queue.PNG)
+
+### Description
+
+A (hacky) TamperMonkey script to improve the ECE391 website queue experience for students.
+
+Current Features:
+
+* Adds queue numbers to entries in the question queue.
+* Automatically updates numbers upon queue modifications.
+* Automatically scroll to your position if you are in the queue, and automatically scroll as your queue position changes **(non-Safari ONLY!!!)**.
+* Queue number highlighting based off of position (red if queue position < # TAs online, yellow if queue position < 2 * # TAs online, grey if otherwise).
+* Suppress the TA-directed notification that "a student is waiting for your help", and replaces it with a notification that alerts you when your queue counter is grey (that is, when you're just about to be dequeued).
+
+### Installation
+
+1. Instal [Tampermonkey](https://www.tampermonkey.net/) in your browser.
+2. [Click Me](https://github.com/sahansk2/slightly-better-ece391-webqueue/raw/main/slightlybetterece391queue.tamper.js)
 
 ## Bug Reports
+
+Note, the course staff might update the site and break this script unintentionally (or intentionally), but that's totally OK.
+Create an issue or bug report if there's some kind of a problem and we can work through it together.
 
 Either email me at sahansk2+fixme@illinois.edu (please respect the plus addressing), make an issue on GitHub, or contact me on Discord. Due to certain classes (*ahem*), progress here might be slow.
 
@@ -31,23 +50,4 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 <hr/>
 
-## Slightly Better ECE391 Queue
-
-![Preview of Slightly Better ECE391 Queue](preview-slightlybetterece391queue.PNG)
-### Description
-
-A (currently) hacky TamperMonkey script to improve the ECE391 website queue experience.
-Note, the course staff might update the site and break this script unintentionally (or intentionally), but that's totally OK.
-File an issue or bug report if there's some kind of a problem and we can work through it together.
-
-### Features
-
-* Adds queue numbers to entries in the question queue.
-* Automatically updates numbers upon queue modifications.
-* Automatically scroll to your position if you are in the queue, and automatically scroll as your queue position changes **(non-Safari ONLY!!!)**.
-* Queue number highlighting based off of position (red if queue position < # TAs online, yellow if queue position < 2 * # TAs online, grey if otherwise).
-
-### Installation
-
-[Click Me](https://github.com/sahansk2/qol-tampermonkey/raw/main/slightlybetterece391queue.tamper.js)
 
