@@ -14,12 +14,6 @@
 (function() {
     'use strict';
 
-// ==UserScript==
-// @name     Unnamed Script 523372
-// @version  1
-// @grant    none
-// ==/UserScript==
-
 const getNetId = () => {
     let res = document.querySelector("#new_question input[name='netid']")?.value
     console.debug('Extracted netId:', res)
