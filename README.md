@@ -12,7 +12,7 @@ Current Features:
 * Automatically updates numbers upon queue modifications.
 * Automatically scroll to your position if you are in the queue, and automatically scroll as your queue position changes **(non-Safari ONLY!!!)**.
 * Queue number highlighting based off of position (red if queue position < # TAs online, yellow if queue position < 2 * # TAs online, grey if otherwise).
-* Suppress the TA-directed notification that "a student is waiting for your help", and replaces it with a notification that alerts you when your queue counter is grey (that is, when you're just about to be dequeued).
+* Suppress the TA-directed notification that "a student is waiting for your help", and replaces it with a notification that alerts you when your queue counter is red (that is, when you're just about to be dequeued).
 
 ### Installation
 
