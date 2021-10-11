@@ -7,7 +7,7 @@
 // @match        http://ece391test.web.illinois.edu/*
 // @match        https://ece391test.web.illinois.edu/*
 // @icon         https://www.google.com/s2/favicons?domain=illinois.edu
-// @grant        none
+// @grant        unsafeWindow
 // ==/UserScript==
 
 
@@ -97,6 +97,6 @@ updateCycle()
 
 const suppressTANotify = () => { console.debug("TA student-ready notification suppressed.") }
 
-window.notify = suppressTANotify
+unsafeWindow.notify = suppressTANotify
 
 })();
