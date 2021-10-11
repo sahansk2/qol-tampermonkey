@@ -16,7 +16,7 @@ Current Features:
 
 ### Installation
 
-1. Instal [Tampermonkey](https://www.tampermonkey.net/) in your browser.
+1. Install [Tampermonkey](https://www.tampermonkey.net/) in your browser.
 2. [Click Me](https://github.com/sahansk2/slightly-better-ece391-webqueue/raw/main/slightlybetterece391queue.tamper.js)
 
 ## Bug Reports
